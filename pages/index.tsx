@@ -11,6 +11,7 @@ const Home: NextPage = () => {
     address: string;
     batch: string;
     student: boolean;
+    email?: string;
   }
 
   const [info, setInfo] = useState<myType>({
