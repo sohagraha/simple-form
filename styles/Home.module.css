@@ -125,7 +125,8 @@
   background-color: #0070f3;
   width: 50%;
   border-radius: 15px;
-  color: #eaeaea
+  color: #eaeaea;
+  padding: 4px 0;
 }
 
 .checkboxContainer {
