@@ -108,6 +108,37 @@
   margin-left: 0.5rem;
 }
 
+.formBody {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.formBody input {
+  width: 50%;
+  margin: 5px;
+}
+
+.formBody button {
+  cursor: pointer;
+  border: none;
+  background-color: #0070f3;
+  width: 50%;
+  border-radius: 15px;
+  color: #eaeaea
+}
+
+.checkboxContainer {
+  display: inline-block;
+  padding-right: 10px;
+  white-space: nowrap;
+  margin: 10px 0;
+}
+
+.checkboxContainer input {
+  width: auto;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
