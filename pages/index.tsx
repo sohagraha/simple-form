@@ -43,7 +43,6 @@ const Home: NextPage = () => {
           }} type="checkbox" />Student</label>
         </div>
         <button onClick={(e) => {
-          e.preventDefault()
           console.log(info)
         }}>Submit Form</button>
       </main>
