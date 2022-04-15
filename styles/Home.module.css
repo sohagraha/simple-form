@@ -11,6 +11,8 @@
 .formBody input {
   width: 50%;
   margin: 5px;
+  padding: 8px;
+  font-size: 18px;
 }
 
 .formBody button {
@@ -21,6 +23,7 @@
   border-radius: 15px;
   color: #eaeaea;
   padding: 4px 0;
+  font-size: 22px;
 }
 
 .checkboxContainer {
@@ -28,10 +31,12 @@
   padding-right: 10px;
   white-space: nowrap;
   margin: 10px 0;
+  font-size: 18px;
 }
 
 .checkboxContainer input {
   width: auto;
+  font-size: 18px;
 }
 
 @media (max-width: 600px) {
