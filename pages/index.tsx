@@ -32,7 +32,14 @@ const Home: NextPage = () => {
         <input onChange={(e) => setInfo({ ...info, address: (e.target.value) })} type="text" placeholder='Address' />
         <input onChange={(e) => setInfo({ ...info, batch: (e.target.value) })} type="text" placeholder='Batch Name' />
         <div className={styles.checkboxContainer}>
-          <label><input onChange={() => setInfo({ ...info, student: (true) })} type="checkbox" />Student</label>
+          <label><input onChange={(e) => {
+            if (e.currentTarget.checked) {
+              setInfo({ ...info, student: (true) })
+            }
+            else {
+              setInfo({ ...info, student: (false) })
+            }
+          }} type="checkbox" />Student</label>
         </div>
         <button onClick={() => {
           console.log(info)
