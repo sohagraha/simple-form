@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         </div>
         <button onClick={() => {
           console.log(formData)
-        }}>Submit</button>
+        }}>Submit Form</button>
       </main>
     </div>
   )
